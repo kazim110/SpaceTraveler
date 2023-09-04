@@ -1,3 +1,8 @@
+:root {
+  --blue: #2789FF;
+  --white: #fff;
+  --gray:#CCCCCC;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +16,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.logo {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--gray);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.linksContainer {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+  margin-right: 25px;
+}
+
+.linksContainer a {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.linksContainer a:hover {
+  text-decoration: underline;
+}
+
+
+
