@@ -8,12 +8,11 @@ import MyProfile from './components/MyProfile';
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Navbar />}>
-          <Route index element={<Rockets />} />
-          <Route path="/missions" element={<Missions />} />
-          <Route path="/myprofile" element={<MyProfile />} />
-        </Route>
+        <Route index path="/rockets" element={<Rockets />} />
+        <Route path="/missions" element={<Missions />} />
+        <Route path="/myprofile" element={<MyProfile />} />
       </Routes>
     </div>
   );
