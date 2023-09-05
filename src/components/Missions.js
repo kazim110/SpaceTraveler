@@ -15,7 +15,7 @@ const Missions = () => {
       <h2>Missions</h2>
       {missionsList.map((mission) => (
         <div key={mission.id}>
-          <h5>{mission.mission_id}</h5>
+          <h6>{mission.mission_id}</h6>
           <h3>{mission.mission_name}</h3>
           <p>{mission.description}</p>
         </div>
