@@ -1,49 +1,48 @@
 .rockets-container {
-    margin: 10px 20px;
-  }
-  
-  .rocket-card {
-    display: flex;
-    margin: 20px 20px;
-    padding: 10px;
-    align-items: flex-start;
-  }
-  
-  .rocket-image {
-    width: 280px; 
-    height: 200px;
-    object-fit: cover;
-    margin-right: 20px;
-    margin-top: 20px;
-  }
-  
-  .rocket-info {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-align: left;
-  }
+  margin: 10px 20px;
+}
 
-  .rocket-info p {
-    margin-top: -8px;
-  }
-  
-  .reserve-button {
-    padding: 12px 20px;
-    background-color: #167BFE;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: auto;
-    align-self: flex-start;
-    margin-top: -30px;
-    font-size: medium;
-  }
-  
-  .reserve-button:hover {
-    background-color: #0056b3;
-  }
-  
+.rocket-card {
+  display: flex;
+  margin: 20px 20px;
+  padding: 10px;
+  align-items: flex-start;
+}
+
+.rocket-image {
+  width: 280px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.rocket-info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.rocket-info p {
+  margin-top: -8px;
+}
+
+.reserve-button {
+  padding: 12px 20px;
+  background-color: #167bfe;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: auto;
+  align-self: flex-start;
+  margin-top: -30px;
+  font-size: medium;
+}
+
+.reserve-button:hover {
+  background-color: #0056b3;
+}
