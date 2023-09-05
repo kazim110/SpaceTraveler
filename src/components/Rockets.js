@@ -12,11 +12,10 @@ const Rockets = () => {
 
   return (
     <div>
-      <h2>Rockets</h2>
+      <h1>Rockets</h1>
       {rocketsList.map((rocket) => (
         <div key={rocket.id}>
-          <h2>{rocket.rocket_name}</h2>
-          <h3>{rocket.rocket_type}</h3>
+          <h2>{rocket.name}</h2>
           <p>{rocket.description}</p>
         </div>
       ))}
