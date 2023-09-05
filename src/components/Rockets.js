@@ -15,7 +15,9 @@ const Rockets = () => {
       <h1>Rockets</h1>
       {rocketsList.map((rocket) => (
         <div key={rocket.id}>
+          <img src={rocket.flickr_images[0]} alt={rocket.name} />
           <h2>{rocket.name}</h2>
+          <h5>{rocket.type}</h5>
           <p>{rocket.description}</p>
         </div>
       ))}
