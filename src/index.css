@@ -33,8 +33,8 @@ code {
 }
 
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 66px;
+  height: 66px;
   display: block;
   margin: 20px;
 }
@@ -50,6 +50,11 @@ nav {
   margin: 0 auto;
 }
 
+nav h1 {
+  font-size: xx-large;
+  font-weight: 500;
+}
+
 .logoContainer {
   display: flex;
   align-items: center;
@@ -59,13 +64,14 @@ nav {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 10px;
+  gap: 30px;
   margin-right: 25px;
 }
 
 .linksContainer a {
   text-decoration: none;
   color: var(--blue);
+  font-size: medium;
 }
 
 .linksContainer a:hover {
