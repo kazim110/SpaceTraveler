@@ -19,7 +19,6 @@ const Rockets = () => {
           <div className="rocket-info">
             <h2>{rocket.name}</h2>
             <p>{rocket.description}</p>
-            <h5>{rocket.rocket_type}</h5>
             <button className="reserve-button" type="button">Reserve Rocket</button>
           </div>
         </div>
