@@ -71,3 +71,30 @@ nav {
 .linksContainer a:hover {
   text-decoration: underline;
 }
+
+.table {
+  width: 85%;
+  margin: 30px auto;
+  border-collapse: collapse;
+}
+
+.MissionName {
+  text-align: initial;
+  font-weight: 700;
+}
+
+.MissionDescription {
+  text-align: initial;
+}
+
+.membershipBtn {
+  padding: 0.1rem 0.2rem;
+}
+
+.joinMissioinBtn {
+  margin: auto 20px;
+}
+
+.midlleAlign {
+  vertical-align: middle;
+}
