@@ -26,22 +26,22 @@ const Rockets = () => {
           <img className="rocket-image" src={rocket.flickr_images[0]} alt={rocket.name} />
           <div className="rocket-info">
             <h2>{rocket.name}</h2>
-            <p>{rocket.description}</p>
+            <p>
+              {rocket.reserved && <span className="badge">Reserved</span>}
+              {rocket.description}
+            </p>
             {rocket.reserved ? (
-              <>
-                <span className="badge">Reserved</span>
-                <button 
-                  className="cancel-button" 
-                  type="button" 
-                  onClick={() => handleCancelRocket(rocket.id)}
-                >
-                  Cancel Reservation
-                </button>
-              </>
+              <button
+                className="cancel-button"
+                type="button"
+                onClick={() => handleCancelRocket(rocket.id)}
+              >
+                Cancel Reservation
+              </button>
             ) : (
-              <button 
-                className="reserve-button" 
-                type="button" 
+              <button
+                className="reserve-button"
+                type="button"
                 onClick={() => handleBookRocket(rocket.id)}
               >
                 Reserve Rocket
