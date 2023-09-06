@@ -9,11 +9,11 @@ const MyProfile = () => {
   return (
     <div className="myProfile">
       <div className="missionsWrapper">
-        <h2>My Missions</h2>
+        <h2 className="my-missions">My Missions</h2>
         {/* Missions will go here, it's empty for now */}
       </div>
       <div className="rocketsWrapper">
-        <h2>My Rockets</h2>
+        <h2 className="my-rockets">My Rockets</h2>
         <table>
           <tbody>
             {reservedRockets.map((rocket) => (
