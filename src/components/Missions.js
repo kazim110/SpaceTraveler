@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { connect, useDispatch, useSelector } from 'react-redux';
 import { fetchMissions, joinMission, leaveMission } from '../features/missions/missionsSlice';
 
 const Missions = () => {
@@ -73,4 +73,9 @@ const Missions = () => {
   );
 };
 
-export default Missions;
+const mapDispatchToProps = {
+  reserve: () => ({ type: 'RESERVE' }),
+  leave: () => ({ type: 'LEAVE' }),
+};
+
+export default connect(null, mapDispatchToProps)(Missions);
