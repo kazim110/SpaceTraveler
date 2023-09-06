@@ -1,0 +1,36 @@
+.myProfile {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .missionsWrapper,
+  .rocketsWrapper {
+    flex-basis: 45%;
+    align-items: flex-start;
+  }
+  
+  h2 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 90%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .rocketRow {
+    border: 1px solid var(--gray);
+    padding: 16px;
+    text-align: left;
+  }
+  
+  .rocketRow td {
+    padding: 16px;
+    text-align: left;
+  }
+  

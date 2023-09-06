@@ -1,21 +1,29 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import './MyProfile.css';
 
 const MyProfile = () => {
   const allRockets = useSelector((state) => state.rockets.rockets);
   const reservedRockets = allRockets.filter((rocket) => rocket.reserved);
 
   return (
-    <div>
-      <h1>My Profile</h1>
-      <h2>Reserved Rockets</h2>
-      <ul>
-        {reservedRockets.map((rocket) => (
-          <li key={rocket.id}>
-            {rocket.name}
-          </li>
-        ))}
-      </ul>
+    <div className="myProfile">
+      <div className="missionsWrapper">
+        <h2>My Missions</h2>
+        {/* Missions will go here, it's empty for now */}
+      </div>
+      <div className="rocketsWrapper">
+        <h2>My Rockets</h2>
+        <table>
+          <tbody>
+            {reservedRockets.map((rocket) => (
+              <tr key={rocket.id} className="rocketRow">
+                <td>{rocket.name}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };
