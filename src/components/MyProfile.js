@@ -10,27 +10,27 @@ const MyProfile = () => {
 
   return (
     <div className="myProfile">
-      <div className="missionsWrapper">
-        <div className="MissionTableContainer">
-          <h5>My Missions</h5>
-          <table className="table table-bordered profileMissionTable">
-            <tbody>
-              {missionReserved.map((mission) => (
-                <tr key={mission.id}>
-                  <td className="MissionName">{mission.mission_name}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+      <div className="TableContainer">
+
+        <h3>My Missions</h3>
+        <table className="table table-bordered profileMissionTable">
+          <tbody>
+            {missionReserved.map((mission) => (
+              <tr key={mission.id}>
+                <td className="MissionName">{mission.mission_name}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+
       </div>
-      <div className="rocketsWrapper">
-        <h2 className="my-rockets">My Rockets</h2>
+      <div className="TableContainer">
+        <h3 className="my-rockets">My Rockets</h3>
         <table className="table table-bordered profileMissionTable">
           <tbody>
             {reservedRockets.map((rocket) => (
               <tr key={rocket.id} className="rocketRow">
-                <td className="RocketName">{rocket.name}</td>
+                <td className="MissionName">{rocket.name}</td>
               </tr>
             ))}
           </tbody>
