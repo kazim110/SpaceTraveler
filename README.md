@@ -170,8 +170,11 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add animations and transitions
-- Add more styles and colors
+(Please note that the following features are for demonstration purposes and may not be available in the current version of the website)
+
+- Virtual Reality Space Tours: Offer immersive VR space tours for users to explore celestial bodies from their own homes.
+
+- Space Community Forum: Create a space enthusiast forum for discussions, tips, and connections among travelers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,7 +200,7 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Thanks to all Microverse community
+Thanks to all <img src="https://assets-global.website-files.com/5dbb30f00775d4c32191a4df/61b33c641028e40f097ca160_microverse-nav-logo-170.png" width="108" height="18"> community.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
