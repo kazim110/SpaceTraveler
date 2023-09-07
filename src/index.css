@@ -32,46 +32,6 @@ code {
     monospace;
 }
 
-.logo {
-  width: 50px;
-  height: 50px;
-  display: block;
-  margin: 20px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: var(--white);
-  border-bottom: 1px solid var(--gray);
-  width: 90%;
-  margin: 0 auto;
-}
-
-.logoContainer {
-  display: flex;
-  align-items: center;
-}
-
-.linksContainer {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  gap: 10px;
-  margin-right: 25px;
-}
-
-.linksContainer a {
-  text-decoration: none;
-  color: var(--blue);
-}
-
-.linksContainer a:hover {
-  text-decoration: underline;
-}
-
 .table {
   width: 85%;
   margin: 30px auto;
