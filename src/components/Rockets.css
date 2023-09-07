@@ -28,6 +28,7 @@
 
 .rocket-info p {
   margin-top: -8px;
+  line-height: 1.5;
 }
 
 .reserve-button {
@@ -45,4 +46,30 @@
 
 .reserve-button:hover {
   background-color: #0056b3;
+}
+
+.cancel-button {
+  padding: 12px 20px;
+  background-color: white;
+  color: #727982;
+  border: 1px solid #727982;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 10px;
+  font-size: medium;
+}
+
+.cancel-button:hover {
+  background-color: #727982;
+  color: white;
+}
+
+.badge {
+  background-color: #23a2b8;
+  color: white;
+  padding: 2px 4px;
+  font-size: 0.8em;
+  border-radius: 5px;
+  margin-right: 10px;
 }
