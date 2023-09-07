@@ -172,9 +172,9 @@ To run tests, run the following command:
 
 (Please note that the following features are for demonstration purposes and may not be available in the current version of the website)
 
-- Virtual Reality Space Tours: Offer immersive VR space tours for users to explore celestial bodies from their own homes.
+- **Virtual Reality Space Tours**: Offer immersive VR space tours for users to explore celestial bodies from their own homes.
 
-- Space Community Forum: Create a space enthusiast forum for discussions, tips, and connections among travelers.
+- **Space Community Forum**: Create a space enthusiast forum for discussions, tips, and connections among travelers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
