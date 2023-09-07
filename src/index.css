@@ -38,7 +38,8 @@ code {
   border-collapse: collapse;
 }
 
-.MissionName, .RocketName {
+.MissionName,
+.RocketName {
   text-align: initial;
   font-weight: 700;
 }
