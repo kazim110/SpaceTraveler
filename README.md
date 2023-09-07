@@ -78,10 +78,14 @@
 
 ## Key Features <a name="key-features"></a>
 
-- **Easy to the eyes and cultivating at the same time**
-- **Dynamic creation of content** 
+1. **Real-Time Data Integration**: The app seamlessly integrates SpaceX API data, offering up-to-date info on rockets and missions. Users confidently explore and book space adventures with accurate data.
+
+2. **Intuitive Reservation System**: Easily reserve rockets and join missions with a user-friendly interface. The system allows booking and cancellation, ensuring a hassle-free experience.
+
+3. **Personalized User Profile**: "My Profile" provides a personalized view of your space travel journey, displaying reserved rockets and joined missions. Enhance engagement and a sense of accomplishment.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LIVE DEMO -->
 
