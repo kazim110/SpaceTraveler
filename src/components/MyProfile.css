@@ -1,61 +1,25 @@
 .myProfile {
   display: flex;
-  justify-content: space-between;
-  padding: 0 20px;
 }
 
-.missionsWrapper,
-.rocketsWrapper {
-  flex-basis: 45%;
-  align-items: flex-start;
+.TableContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
-h2 {
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.my-missions {
-  margin-left: 80px;
-  font-size: xx-large;
-  font-weight: 600;
-}
-
-.my-rockets {
-  font-size: xx-large;
-  font-weight: 600;
-}
-
-table {
-  width: 90%;
-  border-collapse: collapse;
-  border-spacing: 0;
-  border-radius: 5px;
-  overflow: hidden;
-  margin: 0;
-}
-
-.rocketRow {
-  padding: 20px;
+.TableContainer h3 {
+  width: 85%;
+  margin: 20px auto 0 auto;
   text-align: left;
 }
 
-.rocketRow td {
-  border: 1.5px solid var(--gray);
-  padding: 16px;
-  text-align: left;
-  padding-bottom: 28px;
-  font-weight: 500;
-  font-size: medium;
+.profileMissionTable {
+  margin: 20px auto;
 }
 
-/* Handle the rounded corner for the first and last table cells */
-.rocketRow td:first-child {
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-
-.rocketRow td:last-child {
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+.profileMissionTable .MissionName {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem 1em 1.8rem;
 }

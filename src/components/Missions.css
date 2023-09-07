@@ -1,47 +1,12 @@
-:root {
-  --blue: #2789ff;
-  --white: #fff;
-  --gray: #ccc;
-}
-
-body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
-}
-
 .table {
   width: 85%;
   margin: 30px auto;
   border-collapse: collapse;
 }
 
-.MissionName,
-.RocketName {
+.MissionName {
   text-align: initial;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .MissionDescription {
@@ -79,4 +44,5 @@ code {
 .profileMissionTable .MissionName {
   font-weight: 400;
   font-size: 1rem;
+  padding: 1rem 1em 1.8rem;
 }

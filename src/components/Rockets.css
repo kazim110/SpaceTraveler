@@ -24,10 +24,10 @@
   justify-content: flex-start;
   align-items: flex-start;
   text-align: left;
+  margin-top: 13px;
 }
 
 .rocket-info p {
-  margin-top: -8px;
   line-height: 1.5;
 }
 
