@@ -45,7 +45,7 @@
 
 # Preview 👀 <a name="preview"></a>
 
-![Preview of Space Traveler's Hub](https://github.com/kazim110/SpaceTraveler/blob/dev/src/assets/SpaceTravelerPreview.gif?raw=true)
+![Preview of Space Traveler's Hub](https://github.com/kazim110/SpaceTraveler/blob/feature/tests/src/assets/SpaceTravelerPreview.gif?raw=true)
 
 <br/>
 
@@ -73,15 +73,20 @@
   </ul>
 </details>
 
+<br/>
 
 <!-- Features -->
 
 ## Key Features <a name="key-features"></a>
 
-- **Easy to the eyes and cultivating at the same time**
-- **Dynamic creation of content** 
+1. **Real-Time Data Integration**: The app seamlessly integrates SpaceX API data, offering up-to-date info on rockets and missions. Users confidently explore and book space adventures with accurate data.
+
+2. **Intuitive Reservation System**: Easily reserve rockets and join missions with a user-friendly interface. The system allows booking and cancellation, ensuring a hassle-free experience.
+
+3. **Personalized User Profile**: "My Profile" provides a personalized view of your space travel journey, displaying reserved rockets and joined missions. Enhance engagement and a sense of accomplishment.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LIVE DEMO -->
 
@@ -170,13 +175,14 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-(Please note that the following features are for demonstration purposes and may not be available in the current version of the website)
+1. **Enhanced My Profile Placeholder:** Personalize your profile! When your "My Missions" or "My Rockets" lists are empty, we'll add a friendly placeholder message to inspire your next adventure.
 
-- **Virtual Reality Space Tours**: Offer immersive VR space tours for users to explore celestial bodies from their own homes.
+2. **Quick Action Buttons:** Take control! In the "My Missions" and "My Rockets" lists, we're adding "Cancel reservation" and "Leave Mission" buttons. One click, and you're in charge!
 
-- **Space Community Forum**: Create a space enthusiast forum for discussions, tips, and connections among travelers.
+3. **Explore with a Click:** Dive deeper into the cosmos! With the "Read more" button for each mission and rocket, you'll open a corresponding Wikipedia page in a new tab. Unearth the secrets of the universe at your fingertips.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTRIBUTING -->
 
@@ -184,7 +190,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/kazim110/SpaceTraveler/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -47,3 +47,8 @@ nav h1 {
 .divider {
   margin: 0 -20px;
 }
+
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
