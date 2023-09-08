@@ -8,8 +8,10 @@ const Rockets = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchRockets());
-  }, [dispatch]);
+    if (rocketsList.length === 0) {
+      dispatch(fetchRockets());
+    }
+  }, [dispatch, rocketsList.length]);
 
   const handleBookRocket = (id) => {
     dispatch(bookRocket(id));

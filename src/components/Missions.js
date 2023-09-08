@@ -8,8 +8,10 @@ const Missions = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchMissions());
-  }, [dispatch]);
+    if (missionsList.length === 0) {
+      dispatch(fetchMissions());
+    }
+  }, [dispatch, missionsList.length]);
 
   const handleJoinMission = (id) => {
     dispatch(joinMission(id));
