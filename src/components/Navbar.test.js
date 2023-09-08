@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import Navbar from './Navbar';
@@ -8,8 +9,8 @@ test('renders Navbar component', () => {
 });
 
 test('active class changes on link click', () => {
-  const { getByText } = render(<Navbar />);
-  const link = getByText('Rockets'); // Assuming 'Rockets' is one of the NavLink texts
+  const { getByText } = render(<Router><Navbar /></Router>);
+  const link = getByText('Rockets');
   userEvent.click(link);
-  expect(link.classList.contains('active')).toBe(true); // Replace 'active' with whatever your active class is
+  expect(link.classList.contains('active')).toBe(true);
 });
