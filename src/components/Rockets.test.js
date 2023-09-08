@@ -18,14 +18,14 @@ beforeEach(() => {
           name: 'Rocket 1',
           description: 'Rocket description 1',
           reserved: false,
-          flickr_images: ['https://example.com/image1.jpg'],  // Add this line
+          flickr_images: ['https://example.com/image1.jpg'], // Add this line
         },
         {
           id: 2,
           name: 'Rocket 2',
           description: 'Rocket description 2',
           reserved: true,
-          flickr_images: ['https://example.com/image2.jpg'],  // Add this line
+          flickr_images: ['https://example.com/image2.jpg'], // Add this line
         },
       ],
     },
