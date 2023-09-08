@@ -1,0 +1,54 @@
+.logo {
+  width: 66px;
+  height: 66px;
+  display: block;
+  margin: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--gray);
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav h1 {
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.linksContainer {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+  margin-right: 25px;
+}
+
+.linksContainer a {
+  text-decoration: none;
+  color: var(--blue);
+  font-size: medium;
+}
+
+.linksContainer a:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  margin: 0 -20px;
+}
+
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+}

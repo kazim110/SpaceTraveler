@@ -1,0 +1,48 @@
+.table {
+  width: 85%;
+  margin: 30px auto;
+  border-collapse: collapse;
+}
+
+.MissionName {
+  text-align: initial;
+  font-weight: 400;
+}
+
+.MissionDescription {
+  text-align: initial;
+}
+
+.membershipBtn {
+  padding: 0.1rem 0.2rem;
+}
+
+.joinMissioinBtn {
+  margin: auto 20px;
+}
+
+.midlleAlign {
+  vertical-align: middle;
+}
+
+.TableContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.TableContainer h3 {
+  width: 85%;
+  margin: 20px auto 0 auto;
+  text-align: left;
+}
+
+.profileMissionTable {
+  margin: 20px auto;
+}
+
+.profileMissionTable .MissionName {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem 1em 1.8rem;
+}

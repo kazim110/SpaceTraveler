@@ -1,49 +1,29 @@
 <a name="readme-top"></a>
-
-<!--
-!!! IMPORTANT !!!
-This README is an example of how you could professionally present your codebase. 
-Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored. 
-
-You should modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
-
-For more information on the importance of a professional README for your repositories: https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/readme_best_practices.md
--->
 <div align="center">
-  <h1 style="border-bottom: none;">Space-Travelers-Hub</h1>
-</div>
+ <h1><b> Journey to the Stars Begins Here! <br/></b></h1>
+</div>  
+
+<br/>
 
 <div align="center">
-  <!-- <img src="https://github.com/Salimer/Space-Travelers-Hub/assets/52242629/5016c340-a8f2-4794-b8b4-ec7d79279564" alt="Screenshot 1" width="300" style="display: inline-block; margin-right: 10px;">
-  <img src="https://github.com/Salimer/Space-Travelers-Hub/assets/52242629/0bc92fad-8227-4694-8f25-b65d103cb43e" alt="Screenshot 2" width="300" style="display: inline-block; margin-right: 10px;">
-  <img src="https://github.com/Salimer/Space-Travelers-Hub/assets/52242629/8e92bc7d-58a2-4e8b-9b0a-d51586ba263d" alt="Screenshot 3" width="300" style="display: inline-block;"> -->
+  <img src="https://media2.giphy.com/media/3o72Fk1I9jU4dFHKI8/giphy.gif" alt="readme-gif" width="700" style="display: inline-block;">
 </div>
 
+<br/>
+
+<div align="center">
+  <h1 style="border-bottom: none;">🛸 Space Traveler's Hub 🛸</h1>
+</div>
+
+<br/>
 
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Space-Travelers-Hub ](#-space-travelers-hub-)
+- [👀 Preview](#preview)
+- [🛸 Space-Travelers-Hub ](#-space-travelers-hub-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -61,11 +41,21 @@ For more information on the importance of a professional README for your reposit
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
+<br/>
+
+# Preview 👀 <a name="preview"></a>
+
+![Preview of Space Traveler's Hub](https://github.com/kazim110/SpaceTraveler/blob/feature/tests/src/assets/SpaceTravelerPreview.gif?raw=true)
+
+<br/>
+
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Space-Travelers-Hub <a name="about-project"></a>
+# 🛸 Space Traveler's Hub <a name="about-project"></a>
 
 **Space-Travelers-Hub** is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
+
+<br/>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -79,24 +69,30 @@ For more information on the importance of a professional README for your reposit
     <li><a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/">JavaScript</a></li>
     <li><a href="https://styled-components.com">Styled-components</a></li>
     <li><a href="https://react-bootstrap.github.io">React-Bootstrap</a></li>
+    <li><a href="https://nodejs.org/en/">Node.js</a></li>
   </ul>
 </details>
 
+<br/>
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+## Key Features <a name="key-features"></a>
 
-- **Easy to the eyes and cultivating at the same time**
-- **Dynamic creation of content** 
+1. **Real-Time Data Integration**: The app seamlessly integrates SpaceX API data, offering up-to-date info on rockets and missions. Users confidently explore and book space adventures with accurate data.
+
+2. **Intuitive Reservation System**: Easily reserve rockets and join missions with a user-friendly interface. The system allows booking and cancellation, ensuring a hassle-free experience.
+
+3. **Personalized User Profile**: "My Profile" provides a personalized view of your space travel journey, displaying reserved rockets and joined missions. Enhance engagement and a sense of accomplishment.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- - [Live Demo Link](https://space-traverlers-static.onrender.com) -->
+[There's no live demo yet. Coming soon!]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,10 +175,14 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add animations and transitions
-- Add more styles and colors
+1. **Enhanced My Profile Placeholder:** Personalize your profile! When your "My Missions" or "My Rockets" lists are empty, we'll add a friendly placeholder message to inspire your next adventure.
+
+2. **Quick Action Buttons:** Take control! In the "My Missions" and "My Rockets" lists, we're adding "Cancel reservation" and "Leave Mission" buttons. One click, and you're in charge!
+
+3. **Explore with a Click:** Dive deeper into the cosmos! With the "Read more" button for each mission and rocket, you'll open a corresponding Wikipedia page in a new tab. Unearth the secrets of the universe at your fingertips.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTRIBUTING -->
 
@@ -190,7 +190,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/kazim110/SpaceTraveler/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -206,25 +206,30 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Thanks to all Microverse community
+Thanks to all <img src="https://assets-global.website-files.com/5dbb30f00775d4c32191a4df/61b33c641028e40f097ca160_microverse-nav-logo-170.png" width="108" height="18"> community.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-<!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ (Frequently Asked Questions) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+> We know you're curious about space travel, so we've prepared some whimsical questions for you!
 
-- **[Question_1]**
+- **Q: Do I have to be an astronaut to join a space mission? 🚀👩‍🚀**
 
-  - [Answer_1]
+  - A: Nope, we welcome everyone from Earth and beyond! All you need is a sense of adventure and a ticket to ride. 🌍✨
 
-- **[Question_2]**
+- **Q: Can I bring my pet rock to space? 🪨🌌**
 
-  - [Answer_2]
+  - A: While we appreciate your rock's enthusiasm, we recommend leaving it on Earth. Space travel can be a rocky experience! 🙃
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+- **Q: Will I get to meet alien life forms during the mission? 👽🌠**
+
+  - A: We can't promise you'll meet E.T., but who knows what's out there? Keep your eyes on the stars and your camera ready! 📸🌟
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 

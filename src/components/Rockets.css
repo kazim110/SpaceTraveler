@@ -1,0 +1,75 @@
+.rockets-container {
+  margin: 10px 20px;
+}
+
+.rocket-card {
+  display: flex;
+  margin: 20px 20px;
+  padding: 10px;
+  align-items: flex-start;
+}
+
+.rocket-image {
+  width: 280px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.rocket-info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  margin-top: 13px;
+}
+
+.rocket-info p {
+  line-height: 1.5;
+}
+
+.reserve-button {
+  padding: 12px 20px;
+  background-color: #167bfe;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: auto;
+  align-self: flex-start;
+  margin-top: 10px;
+  font-size: medium;
+}
+
+.reserve-button:hover {
+  background-color: #0056b3;
+}
+
+.cancel-button {
+  padding: 12px 20px;
+  background-color: white;
+  color: #727982;
+  border: 1px solid #727982;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 10px;
+  font-size: medium;
+}
+
+.cancel-button:hover {
+  background-color: #727982;
+  color: white;
+}
+
+.badge {
+  background-color: #23a2b8;
+  color: white;
+  padding: 2px 4px;
+  font-size: 0.8em;
+  border-radius: 5px;
+  margin-right: 10px;
+}

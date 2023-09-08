@@ -1,0 +1,25 @@
+.myProfile {
+  display: flex;
+}
+
+.TableContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.TableContainer h3 {
+  width: 85%;
+  margin: 20px auto 0 auto;
+  text-align: left;
+}
+
+.profileMissionTable {
+  margin: 20px auto;
+}
+
+.profileMissionTable .MissionName {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem 1em 1.8rem;
+}
