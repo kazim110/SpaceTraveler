@@ -18,6 +18,7 @@
     "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
     "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.2",
     "sort-by": "^1.2.0",
     "web-vitals": "^2.1.4"
   },
@@ -31,6 +32,11 @@
     "extends": [
       "react-app",
       "react-app/jest"
+    ]
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!(axios)/)"
     ]
   },
   "browserslist": {
@@ -48,6 +54,7 @@
   "devDependencies": {
     "@babel/core": "^7.22.15",
     "@babel/eslint-parser": "^7.22.15",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-syntax-jsx": "^7.22.5",
     "@babel/preset-react": "^7.22.15",
     "eslint": "^7.32.0",
