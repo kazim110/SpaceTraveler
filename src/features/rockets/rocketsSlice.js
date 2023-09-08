@@ -22,17 +22,20 @@ const rocketsSlice = createSlice({
   reducers: {
     bookRocket: (state, action) => {
       const rocketId = action.payload;
-      const rocket = state.rockets.find((rocket) => rocket.id === rocketId);
-      if (rocket) {
-        rocket.reserved = true;
+      const rocketIndex = state.rockets.findIndex((rocket) => rocket.id === rocketId);
+      if (rocketIndex !== -1) {
+        const updatedRocket = { ...state.rockets[rocketIndex], reserved: true };
+        state.rockets.splice(rocketIndex, 1, updatedRocket);
       }
     },
     cancelRocketBooking: (state, action) => {
       const rocketId = action.payload;
-      const rocket = state.rockets.find((rocket) => rocket.id === rocketId);
-      if (rocket) {
-        rocket.reserved = false;
+      const rocketIndex = state.rockets.findIndex((rocket) => rocket.id === rocketId);
+      if (rocketIndex !== -1) {
+        const updatedRocket = { ...state.rockets[rocketIndex], reserved: false };
+        state.rockets.splice(rocketIndex, 1, updatedRocket);
       }
+    }         
     },
   },
   extraReducers: (builder) => {
