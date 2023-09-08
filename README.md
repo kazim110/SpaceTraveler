@@ -45,7 +45,7 @@
 
 # Preview 👀 <a name="preview"></a>
 
-![Preview of Space Traveler's Hub](https://github.com/kazim110/SpaceTraveler/blob/dev/src/assets/SpaceTravelerPreview.gif?raw=true)
+![Preview of Space Traveler's Hub](https://github.com/kazim110/SpaceTraveler/blob/feature/tests/src/assets/SpaceTravelerPreview.gif?raw=true)
 
 <br/>
 
