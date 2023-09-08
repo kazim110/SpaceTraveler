@@ -35,7 +35,6 @@ const rocketsSlice = createSlice({
         const updatedRocket = { ...state.rockets[rocketIndex], reserved: false };
         state.rockets.splice(rocketIndex, 1, updatedRocket);
       }
-    }         
     },
   },
   extraReducers: (builder) => {

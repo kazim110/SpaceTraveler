@@ -22,16 +22,18 @@ const missionsSlice = createSlice({
   reducers: {
     joinMission: (state, action) => {
       const missionId = action.payload;
-      const mission = state.missions.find((mission) => mission.id === missionId);
-      if (mission) {
-        mission.reserved = true;
+      const missionIndex = state.missions.findIndex((mission) => mission.id === missionId);
+      if (missionIndex !== -1) {
+        const updatedMission = { ...state.missions[missionIndex], reserved: true };
+        state.missions.splice(missionIndex, 1, updatedMission);
       }
     },
     leaveMission: (state, action) => {
       const missionId = action.payload;
-      const mission = state.missions.find((mission) => mission.id === missionId);
-      if (mission) {
-        mission.reserved = false;
+      const missionIndex = state.missions.findIndex((mission) => mission.id === missionId);
+      if (missionIndex !== -1) {
+        const updatedMission = { ...state.missions[missionIndex], reserved: false };
+        state.missions.splice(missionIndex, 1, updatedMission);
       }
     },
   },
